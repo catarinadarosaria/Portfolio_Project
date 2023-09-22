@@ -1,0 +1,16 @@
+body {
+  font-family: "Familjen Grotesk", sans-serif !important;
+}
+.hero {
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.homepage-title {
+  font-size: 64px;
+  font-weight: 400;
+}
+.container {
+  padding: 250px;
+}
