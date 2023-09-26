@@ -1,16 +1,76 @@
-body {
+.website {
   font-family: "Familjen Grotesk", sans-serif !important;
+  margin: 100px;
 }
-.hero {
-  background-image: url("/images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: auto;
-}
+
 .homepage-title {
+  text-align: center;
   font-size: 64px;
   font-weight: 400;
 }
-.container {
-  padding: 250px;
+.title-links {
+  color: black;
+}
+.title-links:hover {
+  color: #ffc0ca;
+  cursor: pointer;
+}
+
+.project-preview {
+  margin-top: 80px;
+}
+.project-preview img {
+  border-radius: 8px;
+  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+}
+.custom-line {
+  border: none;
+  height: 2px;
+  background-color: #000;
+  border-top: 2px solid #000;
+  margin: 80px 0;
+}
+.title-section {
+  text-transform: uppercase;
+  border: 1.5px solid black;
+  border-radius: 20px;
+  padding: 6px 8px;
+  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+}
+.biography {
+  margin-top: 60px;
+  font-size: 30px;
+}
+.photo-me {
+  text-align: center;
+  margin: 40px 0 80px 0;
+}
+.sub-section {
+  font-size: 24px;
+}
+.education-paragraph {
+  font-size: 24px;
+  margin-bottom: 80px;
+}
+.skills-paragraph {
+  margin: 40px 0 80px 0;
+}
+.project-section-buttons {
+  margin-top: 80px;
+}
+.project-section-buttons button {
+  border: 1.5px solid black;
+  font-size: 40px;
+  cursor: pointer;
+  width: 80%;
+  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+}
+.section-button {
+  text-align: center;
+  margin: 10px;
+}
+.project-section-buttons button:hover {
+  border: 1.5px solid black;
+  cursor: pointer;
+  background-color: #ffc0ca;
 }
