@@ -1,11 +1,18 @@
+/* CSS VARIABLES */
+:root {
+  --main-branding-color: #ffc0ca;
+  --box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+  --website-primary-font: "Familjen Grotesk", sans-serif !important;
+}
+/* NAVBAR */
 .navbar {
   margin: 20px 30px;
   padding-left: 20px;
-  font-family: "Familjen Grotesk", sans-serif !important;
+  font-family: var(--website-primary-font);
   font-size: 18px;
 }
 .navbar .navbar-brand {
-  font-family: "Familjen Grotesk", sans-serif !important;
+  font-family: var(--website-primary-font);
   font-size: 26px;
 }
 .navbar .navbar-nav .nav-link {
@@ -13,29 +20,33 @@
 }
 .navbar-nav .nav-item {
   margin: 0 0 0 30px;
-
   border: 1.8px solid black;
   border-radius: 30px;
   padding: 0 5px;
-  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+  box-shadow: var(--box-shadow);
 }
 .navbar-nav .nav-item:hover {
   cursor: pointer;
-  background-color: #ffc0ca;
+  background-color: var(--main-branding-color);
 }
-
+/* GENERAL */
 .website {
-  font-family: "Familjen Grotesk", sans-serif !important;
+  font-family: var(--website-primary-font);
   margin: 50px;
   line-height: 1.5;
 }
-
+img {
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+}
+/* HERO */
 .title-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .homepage-title {
+  font-family: var(--website-primary-font);
   text-align: center;
   font-size: 68px;
   font-weight: 400;
@@ -45,7 +56,7 @@
   color: black;
 }
 .title-links:hover {
-  color: #ffc0ca;
+  color: var(--main-branding-color);
   cursor: pointer;
 }
 
@@ -54,7 +65,7 @@
 }
 .project-preview img {
   border-radius: 4px;
-  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+  box-shadow: var(--box-shadow);
 }
 .custom-line {
   border: none;
@@ -68,9 +79,9 @@
   border: 1.5px solid black;
   border-radius: 20px;
   padding: 6px 8px;
-  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+  box-shadow: var(--box-shadow);
 }
-
+/* ABOUT */
 .biography-container {
   margin: 80px 0;
 }
@@ -85,7 +96,7 @@
 .photo-me {
   text-align: center;
   margin: 40px 0 0 0;
-  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+  box-shadow: var(--box-shadow);
 }
 .sub-section {
   font-size: 24px;
@@ -103,24 +114,26 @@
   text-align: center;
 }
 
-.section-button {
-  text-align: center;
-  margin: 10px;
+/* PROJECT SHOWCASE */
+.showcase-title {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 50px;
 }
-
 .showcase {
   margin: 40px;
 }
 .showcase img {
   margin-top: 60px;
   border-radius: 4px;
-  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+  box-shadow: var(--box-shadow);
 }
 .showcase img:hover {
   cursor: pointer;
   transition: all 0.3s ease-out;
   transform: scale(1.04);
 }
+/* PROJECT PAGE */
 .project-presentation {
   margin: 60px 0 100px 0;
 }
@@ -141,11 +154,11 @@
   margin: 60px 0;
 }
 
-img {
-  border-radius: 8px;
-  box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
+.project-caption {
+  font-size: 20px;
 }
 
+/* MEDIA QUERIES */
 @media (min-width: 577px) and (max-width: 820px) {
   .website {
     margin: 50px;
