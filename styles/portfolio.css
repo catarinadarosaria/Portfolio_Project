@@ -3,32 +3,35 @@
   --main-branding-color: #ffc0ca;
   --box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
   --website-primary-font: "Familjen Grotesk", sans-serif !important;
+  --website-secondary-font: "Playfair Display", serif !important;
 }
 /* NAVBAR */
 .navbar {
   margin: 20px 30px;
-  padding-left: 20px;
+  padding: 20px !important;
   font-family: var(--website-primary-font);
-  font-size: 18px;
+  font-size: 36px;
+  border-bottom: 2px solid black;
 }
 .navbar .navbar-brand {
   font-family: var(--website-primary-font);
-  font-size: 26px;
+  font-size: 36px;
 }
 .navbar .navbar-nav .nav-link {
   color: #000;
 }
 .navbar-nav .nav-item {
   margin: 0 0 0 30px;
-  border: 1.8px solid black;
-  border-radius: 30px;
-  padding: 0 5px;
+  border: 2px solid black;
+  border-radius: 36px;
+  padding: 0 10px;
   box-shadow: var(--box-shadow);
 }
 .navbar-nav .nav-item:hover {
   cursor: pointer;
   background-color: var(--main-branding-color);
 }
+
 /* GENERAL */
 .website {
   font-family: var(--website-primary-font);
@@ -40,17 +43,18 @@ img {
   box-shadow: var(--box-shadow);
 }
 /* HERO */
+
 .title-container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  min-height: 60vh;
 }
 .homepage-title {
-  font-family: var(--website-primary-font);
+  font-family: var(--website-secondary-font);
   text-align: center;
   font-size: 68px;
   font-weight: 400;
-  max-width: 50%;
+  max-width: 1200px;
 }
 .title-links {
   color: black;
@@ -87,7 +91,7 @@ img {
 }
 
 .biography {
-  font-size: 34px;
+  font-size: 24px;
 }
 .bio-text,
 .bio-img {
@@ -116,6 +120,7 @@ img {
 
 /* PROJECT SHOWCASE */
 .showcase-title {
+  font-family: var(--website-secondary-font);
   margin-top: 100px;
   margin-bottom: 40px;
   font-size: 50px;
@@ -134,28 +139,48 @@ img {
   transform: scale(1.04);
 }
 /* PROJECT PAGE */
-.project-presentation {
-  margin: 60px 0 100px 0;
-}
-.project-presentation h1 {
-  margin: 40px 0;
+.project-title {
+  font-family: var(--website-secondary-font);
+  font-weight: 500;
+  margin: 30px 0;
   font-size: 60px;
 }
-.project-presentation h3 {
-  font-size: 30px;
-  font-weight: 400;
+.project-sub-title {
+  font-family: var(--website-secondary-font);
+  font-weight: 600 !important;
+  font-size: 24px;
 }
+
+.project-presentation {
+  margin: 100px auto 120px auto;
+}
+
 .project-presentation p {
-  margin: 20px 0;
-  font-size: 30px;
+  margin: 40px 0;
+  font-size: 24px;
   font-weight: 400;
 }
 .scroll-images img {
-  margin: 60px 0;
+  margin: 40px 0;
 }
 
 .project-caption {
   font-size: 20px;
+}
+
+/* SCROLL GRADIENT */
+.scroll-fade {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(0, 0, 0, 0.1)
+  );
+  pointer-events: none;
 }
 
 /* MEDIA QUERIES */
