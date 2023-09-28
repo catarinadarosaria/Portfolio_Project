@@ -1,6 +1,6 @@
 /* CSS VARIABLES */
 :root {
-  --main-branding-color: #ffc0ca;
+  --main-branding-color: #5fee46;
   --box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
   --website-primary-font: "Familjen Grotesk", sans-serif !important;
   --website-secondary-font: "Playfair Display", serif !important;
@@ -10,8 +10,8 @@
   margin: 20px 30px;
   padding: 20px !important;
   font-family: var(--website-primary-font);
-  font-size: 36px;
-  border-bottom: 2px solid black;
+  font-size: 28px;
+  /*border-bottom: 2px solid black;*/
 }
 .navbar .navbar-brand {
   font-family: var(--website-primary-font);
@@ -86,12 +86,15 @@ img {
   box-shadow: var(--box-shadow);
 }
 /* ABOUT */
+.controled-width {
+  max-width: 80%;
+}
 .biography-container {
   margin: 80px 0;
 }
 
 .biography {
-  font-size: 24px;
+  font-size: 28px;
 }
 .bio-text,
 .bio-img {
@@ -152,13 +155,16 @@ img {
 }
 
 .project-presentation {
-  margin: 100px auto 120px auto;
+  margin: 100px auto 150px auto;
 }
 
 .project-presentation p {
   margin: 40px 0;
   font-size: 24px;
   font-weight: 400;
+}
+.image-presentation {
+  margin-bottom: 200px;
 }
 .scroll-images img {
   margin: 40px 0;
