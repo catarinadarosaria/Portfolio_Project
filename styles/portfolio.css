@@ -1,7 +1,7 @@
 /* CSS VARIABLES */
 :root {
-  --main-branding-color: rgb(255, 145, 0);
-  --background-color: rgb(242, 242, 242);
+  --main-branding-color: rgb(76, 255, 156);
+  --background-color: rgb(247, 246, 243);
   --box-shadow: 5px 5px 19px -6px rgba(0, 0, 0, 0.32);
   --website-primary-font: "Radio Grotesk", sans-serif !important;
   --website-secondary-font: "Radio Grotesk", serif !important;
@@ -78,7 +78,7 @@
   padding: 10px 20px 30px 20px !important;
   font-family: var(--website-primary-font);
   font-size: 28px;
-  box-shadow: 0px 15px 5px -15px rgba(0, 0, 0, 0.32);
+
   /*border-bottom: 2px solid black;*/
 }
 .navbar .navbar-brand {
@@ -93,18 +93,24 @@
   margin: 0 0 0 30px;
   border: 2px solid black;
   border-radius: 36px;
-  padding: 0 10px;
+  padding: 0 8px;
   box-shadow: var(--box-shadow);
 }
 .navbar-nav .nav-item:hover {
   cursor: pointer;
   background-color: var(--main-branding-color);
 }
+.navbar-toggler {
+  border: none !important;
+}
+.navbar-toggler-icon {
+  color: #000 !important;
+  border: none !important;
+}
 
 /* GENERAL */
 body {
   background-color: var(--background-color) !important;
-  height: 100vh !important;
 }
 
 .website {
@@ -127,7 +133,7 @@ img {
 .homepage-title {
   font-family: var(--website-secondary-font);
   text-align: center;
-  font-size: 68px;
+  font-size: 100px;
   font-weight: 400;
   max-width: 1200px;
 }
@@ -344,10 +350,14 @@ footer {
   .website {
     margin: 30px;
   }
+  .navbar .navbar-brand {
+    font-size: 24px;
+  }
   .homepage-title {
-    margin: 100px 0 0 0;
+    margin: 10px 0 0 0;
     font-size: 28px;
     max-width: 80%;
+    min-height: 0vh;
   }
   .biography,
   .education-paragraph,
@@ -370,6 +380,9 @@ footer {
   .bio-text,
   .bio-img {
     padding: 0;
+  }
+  footer {
+    font-size: 10px;
   }
 }
 @media (min-width: 820px) {
