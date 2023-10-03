@@ -29,9 +29,9 @@
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid menu-bar">
-        <div class="d-flex justify-content-between align-items-center w-100">
+        <div class="d-flex justify-content-between align-items-center">
           <a class="navbar-brand" href="/">CATARINA ROSÁRIA</a>
           <button
             class="navbar-toggler"
@@ -50,40 +50,20 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="/">HOME</a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link" href="/about.html">ABOUT</a>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                PROJECTS
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="/graphic.html"
-                    >Graphic Design</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/frontend.html"
-                    >Web Development</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/ai.html"
-                    >Artificial Intelligence</a
-                  >
-                </li>
-              </ul>
+            <li class="nav-item" id="graphic-design-nav">
+              <a class="nav-link" href="/graphic.html">GRAPHIC DESIGN</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACTS</a>
+              <a class="nav-link" href="/frontend.html">WEB DEVELOPMENT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ai.html">AI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">CONTACT</a>
             </li>
           </ul>
         </div>
@@ -159,5 +139,6 @@
         ></a>
       </div>
     </footer>
+    <script src="/javascript/index.js"></script>
   </body>
 </html>
