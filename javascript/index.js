@@ -38,3 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 });
+
+// Prealoader
+
+window.onload = function () {
+  document.querySelector(".preloader").style.display = "none";
+};
