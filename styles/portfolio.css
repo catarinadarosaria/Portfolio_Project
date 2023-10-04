@@ -414,14 +414,16 @@ i:hover {
   .website {
     margin: 30px;
   }
+  .navbar {
+    margin: 0 10px 0 10px;
+  }
   .navbar .navbar-brand {
     font-size: 20px;
   }
   .homepage-title {
-    margin: 10px 0 0 0;
-    font-size: 28px;
-    max-width: 80%;
-    min-height: 0vh;
+    margin: 40px 0 0 0;
+    font-size: 30px;
+    max-width: 90%;
   }
   .project-title {
     font-size: 40px;
@@ -495,16 +497,16 @@ i:hover {
     font-size: 22px;
   }
   footer {
-    font-size: 16px;
+    font-size: 12px;
     padding: 10px;
     text-align: center;
   }
   .social-links {
-    font-size: 20px;
+    font-size: 18px;
     margin: 10px;
   }
   .mail-footer {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 /* MEDIA QUERIES MEDIUM*/
@@ -514,7 +516,7 @@ i:hover {
   }
   .homepage-title {
     margin: 100px 0 0 0;
-    font-size: 48px;
+    font-size: 60px;
     max-width: 80%;
   }
   .education-paragraph,
