@@ -244,13 +244,7 @@ img {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
 }
-.custom-line {
-  border: none;
-  height: 2px;
-  background-color: #000;
-  border-top: 2px solid #000;
-  margin: 100px 0;
-}
+
 .title-section {
   background-color: var(--background-color);
   text-transform: uppercase;
@@ -495,11 +489,41 @@ i:hover {
   .images-scroll img {
     margin-bottom: 30px;
   }
-  .ai-row {
-    margin-top: 0 !important;
-  }
+
   .image-presentation {
     margin-bottom: 10px;
+  }
+  .project-sub-title {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .project-presentation {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .project-title {
+    margin-bottom: 10px;
+  }
+  .project.description {
+    margin-top: 10px;
+  }
+  .scroll-images img {
+    margin: 20px 0;
+  }
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-top: 30px; /* Optional: Add some space on top if needed */
+    height: 0;
+    overflow: hidden;
+  }
+
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
   .contact-container {
     margin-top: 30px;
@@ -510,6 +534,7 @@ i:hover {
   }
   .contact-text {
     font-size: 22px;
+    margin-top: 30px;
   }
   .contact-subtitle {
     font-size: 22px;
