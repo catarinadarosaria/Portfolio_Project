@@ -411,6 +411,10 @@ i:hover {
 }
 /* MEDIA QUERIES SMALL*/
 @media (max-width: 576px) {
+  body {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
   .website {
     margin: 30px;
   }
@@ -432,17 +436,25 @@ i:hover {
   .biography-container {
     margin-top: 0 !important;
   }
+  .controled-width {
+    max-width: 100%;
+  }
   .biography,
   .education-paragraph,
   .skills-paragraph {
     font-size: 18px;
   }
+  .photo-me {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .skills-paragraph {
+    margin-bottom: 40px;
+  }
+
   .title-section,
   .sub-section {
     font-size: 18px;
-  }
-  .custom-line {
-    margin-top: 0;
   }
   .project-section-buttons button {
     font-size: 20px;
