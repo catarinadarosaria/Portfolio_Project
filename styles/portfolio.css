@@ -426,6 +426,9 @@ i:hover {
   .navbar .navbar-brand {
     font-size: 20px;
   }
+  .navbar-nav .nav-item {
+    font-size: 10px;
+  }
   .homepage-title {
     margin: 40px 0 0 0;
     font-size: 30px;
@@ -630,7 +633,6 @@ i:hover {
     margin-top: 30px;
   }
 
-  /* Style the links within the dropdown menu */
   .navbar-nav .nav-item {
     border: none;
     border-radius: 0;
