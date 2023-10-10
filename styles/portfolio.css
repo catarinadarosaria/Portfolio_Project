@@ -196,6 +196,9 @@
 .navbar-nav .nav-item.active-nav-item {
   background-color: var(--main-branding-color);
 }
+.menu-bar {
+  margin: 0 10px !important;
+}
 
 /* GENERAL */
 body {
@@ -380,8 +383,8 @@ img {
 /* FOOTER */
 footer {
   margin-top: auto;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 0px;
   padding-bottom: 30px;
   position: fixed;
