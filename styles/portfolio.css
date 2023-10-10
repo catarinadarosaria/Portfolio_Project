@@ -227,7 +227,7 @@ img {
 .homepage-title {
   font-family: var(--website-secondary-font);
   text-align: center;
-  font-size: 80px;
+  font-size: 4.5vw;
   font-weight: 400;
   max-width: 1200px;
   margin-top: 120px;
@@ -495,6 +495,9 @@ i:hover {
   .images-scroll img {
     margin-bottom: 30px;
   }
+  .ai-margin {
+    margin-top: 0 !important;
+  }
 
   .image-presentation {
     margin-bottom: 10px;
@@ -564,7 +567,7 @@ i:hover {
     margin: 10px 20px 0 20px;
   }
   .navbar .navbar-brand {
-    font-size: 40px;
+    font-size: 30px;
   }
   .website {
     margin: 50px;
@@ -581,6 +584,12 @@ i:hover {
     font-size: 60px !important;
     margin-top: 0 !important;
   }
+  .project-presentation {
+    margin-bottom: 20px;
+  }
+  .scroll-images {
+    margin-bottom: 50px;
+  }
   .biography {
     margin-top: 30px !important;
   }
@@ -595,6 +604,12 @@ i:hover {
   .bio-text,
   .bio-img {
     padding: 0;
+  }
+  .showcase-title {
+    margin-bottom: 0;
+  }
+  .contact-title {
+    margin-top: 50px;
   }
   footer {
     margin-bottom: 20px;
