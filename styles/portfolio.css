@@ -427,7 +427,7 @@ i:hover {
     font-size: 20px;
   }
   .navbar-nav .nav-item {
-    font-size: 10px;
+    font-size: 20px !important;
   }
   .homepage-title {
     margin: 40px 0 0 0;
