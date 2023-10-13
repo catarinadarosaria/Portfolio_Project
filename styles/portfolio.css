@@ -247,6 +247,8 @@ img {
   font-size: 4.5vw;
   font-weight: 400;
   max-width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
 }
 .title-links {
   color: black;
@@ -602,7 +604,8 @@ i:hover {
   .homepage-title {
     margin: 100px 0 0 0;
     font-size: 60px;
-    max-width: 80%;
+    max-width: 90%;
+    margin: 0 auto;
   }
   .controled-width {
     max-width: 100%;
