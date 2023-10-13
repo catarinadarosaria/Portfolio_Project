@@ -604,8 +604,8 @@ i:hover {
   .homepage-title {
     margin: 100px 0 0 0;
     font-size: 60px;
-    max-width: 90%;
-    margin: 0 auto;
+    max-width: 90% !important;
+    margin: 0 auto !important;
   }
   .controled-width {
     max-width: 100%;
