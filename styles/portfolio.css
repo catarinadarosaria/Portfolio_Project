@@ -223,7 +223,7 @@ body {
 }
 .website {
   background-color: var(--background-color);
-  margin: 50px 20px;
+  margin: 50px;
 }
 img {
   border-radius: 8px;
@@ -424,6 +424,10 @@ i:hover {
 
 /* MEDIA QUERIES SMALL*/
 @media (max-width: 576px) {
+  .website {
+    background-color: var(--background-color);
+    margin: 50px 20px;
+  }
   .navbar {
     margin: 0 10px 0 10px;
   }
