@@ -358,7 +358,7 @@ img {
 
 /* CONTACTS */
 .contact-container {
-  margin-top: 80px;
+  margin-top: 150px;
 }
 .contact-title {
   margin-bottom: 50px;
@@ -644,6 +644,9 @@ i:hover {
   }
   .contact-title {
     margin-top: 50px;
+  }
+  .contact-container {
+    margin-top: 80px;
   }
   .mail-footer {
     font-size: 20px;
