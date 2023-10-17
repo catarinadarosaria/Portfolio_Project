@@ -257,7 +257,6 @@ img {
   color: var(--main-branding-color);
   cursor: pointer;
 }
-
 .project-preview {
   margin-top: 100px;
 }
@@ -459,6 +458,7 @@ i:hover {
     font-size: 36px;
     margin-top: 0 !important;
   }
+
   .biography-container {
     margin-top: 0 !important;
   }
@@ -518,6 +518,10 @@ i:hover {
   .showcase {
     margin-bottom: 10px !important;
   }
+  .last-image {
+    margin-bottom: 40px !important;
+  }
+
   .project-caption {
     font-size: 18px;
   }
@@ -532,8 +536,8 @@ i:hover {
     margin-bottom: 10px;
   }
   .project-sub-title {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.2;
   }
   .project-presentation {
     margin-top: 40px;
@@ -542,8 +546,8 @@ i:hover {
   .project-title {
     margin-bottom: 10px;
   }
-  .project.description {
-    margin-top: 10px;
+  .project-description {
+    margin-top: 30px !important;
   }
   .scroll-images img {
     margin: 20px 0;
