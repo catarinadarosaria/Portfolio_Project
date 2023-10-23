@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="description" content="Contact webpage" />
+    <meta property="og:image" content="/images/og-image.jpg" />
+    <title>Contact - Catarina da Rosária</title>
     <link rel="stylesheet" type="text/css" href="/styles/portfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +19,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="icon" href="/images/favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/326f0c0d26.js"
       crossorigin="anonymous"
@@ -35,7 +39,9 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid menu-bar">
-        <div class="d-flex justify-content-between align-items-center">
+        <div
+          class="menu-items d-flex justify-content-between align-items-center"
+        >
           <a class="navbar-brand" href="/">CATARINA ROSÁRIA</a>
           <button
             class="navbar-toggler"
@@ -51,9 +57,6 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">ABOUT</a>
             </li>
@@ -73,6 +76,7 @@
         </div>
       </div>
     </nav>
+
     <div class="website">
       <!-- HERO -->
       <div class="contact-container">
@@ -81,7 +85,7 @@
             <div class="col-lg-6 d-flex align-items-center">
               <img
                 src="/images/phone-bw.jpg"
-                alt="Photo of time app project"
+                alt="Vintage photo of a woman on the phone"
                 class="img-fluid mx-auto"
               />
             </div>
@@ -89,7 +93,10 @@
               <h1 class="contact-title">Let's get in touch!</h1>
               <p class="contact-text">
                 You can send me an email on this address:<br />
-                <a class="mail-link" href="mailto:catarinadarosaria@gmail.com"
+                <a
+                  class="mail-link"
+                  href="mailto:catarinadarosaria@gmail.com"
+                  title="Email Link"
                   >catarinadarosaria@gmail.com</a
                 >
               </p>
@@ -99,6 +106,8 @@
                 <a
                   class="contact-link mb-5"
                   href="https://www.linkedin.com/in/catarina-da-ros%C3%A1ria-959080145/"
+                  title="LinkedIn Link"
+                  target="_blank"
                   >Catarina da Rosária</a
                 >
               </p>
@@ -107,6 +116,8 @@
                 <a
                   class="contact-link"
                   href="https://www.behance.net/catarinarosaria"
+                  title="Behance Link"
+                  target="_blank"
                   >catarinarosaria</a
                 >
               </p>
@@ -115,6 +126,8 @@
                 <a
                   class="contact-link"
                   href="https://github.com/catarinadarosaria"
+                  title="Github Link"
+                  target="_blank"
                   >catarinadarosaria</a
                 >
               </p>
@@ -123,26 +136,6 @@
         </div>
       </div>
     </div>
-    <footer class="d-flex justify-content-between align-items-center p-3">
-      <a
-        class="text-start mail-footer"
-        href="mailto:catarinadarosaria@gmail.com"
-        >catarinadarosaria@gmail.com</a
-      >
-      <div class="social-links text-end">
-        <a
-          href="https://www.linkedin.com/in/catarina-da-ros%C3%A1ria-959080145/"
-        >
-          <i class="fa-brands fa-linkedin-in pe-4" style="color: #000000"></i
-        ></a>
-        <a href="https://www.behance.net/catarinarosaria">
-          <i class="fa-brands fa-behance pe-4" style="color: #000000"></i
-        ></a>
-        <a href="https://github.com/catarinadarosaria">
-          <i class="fa-brands fa-github" style="color: #000000"></i
-        ></a>
-      </div>
-    </footer>
     <script src="/javascript/index.js"></script>
   </body>
 </html>

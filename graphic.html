@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Graphic Design Project's Showcase, from editorial design, to visual identity, social media management and label design."
+    />
+    <meta property="og:image" content="/images/og-image.jpg" />
+    <title>Graphic Design - Catarina da Rosária</title>
     <link rel="stylesheet" type="text/css" href="/styles/portfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +22,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="icon" href="/images/favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/326f0c0d26.js"
       crossorigin="anonymous"
@@ -35,7 +42,9 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid menu-bar">
-        <div class="d-flex justify-content-between align-items-center">
+        <div
+          class="menu-items d-flex justify-content-between align-items-center"
+        >
           <a class="navbar-brand" href="/">CATARINA ROSÁRIA</a>
           <button
             class="navbar-toggler"
@@ -51,9 +60,6 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">ABOUT</a>
             </li>
@@ -81,10 +87,13 @@
       <div class="container-fluid">
         <div class="row showcase">
           <div class="col-md-4">
-            <a href="/project-1.html">
+            <a
+              href="/project-1.html"
+              title="The Medium is the Massage Project Link"
+            >
               <img
                 src="images/graphic-showcase/1.jpg"
-                alt="Photo of editorial book project"
+                alt="The Medium is the Massage Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -93,10 +102,13 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a href="/project-2.html">
+            <a
+              href="/project-2.html"
+              title="Distinct.e.s Collectif Project Link"
+            >
               <img
                 src="images/graphic-showcase/2.jpg"
-                alt="Instagram Post for Podcast"
+                alt="Distinct.e.s Collectif Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -105,10 +117,10 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a href="/project-3.html">
+            <a href="/project-3.html" title="Birra Gallery Project Link">
               <img
                 src="images/graphic-showcase/3.jpg"
-                alt="Instagram Post for Podcast"
+                alt="Birra Gallery Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -120,10 +132,10 @@
 
         <div class="row showcase">
           <div class="col-md-4">
-            <a href="/project-4.html">
+            <a href="/project-4.html" title="Alfred Hitchcock Project Link">
               <img
                 src="images/graphic-showcase/4.jpg"
-                alt="Photo of editorial book project"
+                alt="Alfred Hitchcock Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -132,10 +144,10 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a href="/project-5.html">
+            <a href="/project-5.html" title="Taxi Driver Project Link">
               <img
                 src="images/graphic-showcase/5.jpg"
-                alt="Photo of time app project"
+                alt="Taxi Driver Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -144,10 +156,10 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a href="/project-6.html">
+            <a href="/project-6.html" title="MACAM Project Link">
               <img
                 src="images/graphic-showcase/6.jpg"
-                alt="Photo of time app project"
+                alt="MACAM Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -158,10 +170,10 @@
         </div>
         <div class="row showcase">
           <div class="col-md-4">
-            <a href="/project-7.html">
+            <a href="/project-7.html" title="Alta Indefinição Project Link">
               <img
                 src="images/graphic-showcase/7.jpg"
-                alt="Photo of editorial book project"
+                alt="Alta Indefinição Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -170,10 +182,10 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a href="/project-8.html">
+            <a href="/project-8.html" title="Uma Outra História Project Link">
               <img
                 src="/images/graphic-showcase/8.jpg"
-                alt="Instagram Post for Podcast"
+                alt="Uma Outra História Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -182,10 +194,11 @@
             </p>
           </div>
           <div class="col-md-4">
-            <a href="/project-9.html">
+            <a href="/project-9.html" title="Bleeding Heart Project Link">
               <img
                 src="images/graphic-showcase/9.jpg"
-                alt="Instagram Post for Podcast"
+                alt="Bleeding Heart
+              Project"
                 class="img-fluid img-showcase"
             /></a>
             <p class="mt-3 project-caption">
@@ -196,24 +209,39 @@
         </div>
       </div>
     </div>
-    <footer class="d-flex justify-content-between align-items-center p-3">
-      <a
-        class="text-start mail-footer"
-        href="mailto:catarinadarosaria@gmail.com"
-        >catarinadarosaria@gmail.com</a
-      >
-      <div class="social-links text-end">
+    <footer class="d-flex justify-content-between p-3">
+      <div class="text-start align-self-center">
         <a
-          href="https://www.linkedin.com/in/catarina-da-ros%C3%A1ria-959080145/"
+          href="mailto:catarinadarosaria@gmail.com"
+          title="email link"
+          class="mail-footer"
+          >catarinadarosaria@gmail.com</a
         >
-          <i class="fa-brands fa-linkedin-in pe-4" style="color: #000000"></i
-        ></a>
-        <a href="https://www.behance.net/catarinarosaria">
-          <i class="fa-brands fa-behance pe-4" style="color: #000000"></i
-        ></a>
-        <a href="https://github.com/catarinadarosaria">
-          <i class="fa-brands fa-github" style="color: #000000"></i
-        ></a>
+      </div>
+      <div class="text-end social-links align-self-center">
+        <a
+          href="https://www.linkedin.com/in/catarina-da-ros%C3%A1ria-959080145"
+          title="LinkedIn link"
+          class="pe-2"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in" style="color: #000000"></i>
+        </a>
+        <a
+          href="https://www.behance.net/catarinarosaria"
+          title="Behance link"
+          class="pe-2"
+          target="_blank"
+        >
+          <i class="fa-brands fa-behance" style="color: #000000"></i>
+        </a>
+        <a
+          href="https://github.com/catarinadarosaria"
+          title="Github link"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github" style="color: #000000"></i>
+        </a>
       </div>
     </footer>
     <script src="/javascript/index.js"></script>

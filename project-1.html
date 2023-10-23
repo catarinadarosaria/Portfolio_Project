@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="The Medium is the Massage - The aim of this project is to understand the evolution of the book and the different ways of materializing it and scpeculating on the advantages of a new type of hybrid materialization that crosses the print and digital media through augmented reality. It was intended to speculate on creating a new type of reading experience, based on paper matter, that takes advantage of the potential of digital medium. It was used the content of the book “The Medium is the Massage” by Marshall McLuhan in the three different books in order to understand how the change of medium (print, digital, hybrid) changes our perception of the content."
+    />
+    <meta property="og:image" content="/images/og-image.jpg" />
+    <title>The Medium is the Massage - Catarina da Rosária</title>
     <link rel="stylesheet" type="text/css" href="/styles/portfolio.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +22,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="icon" href="/images/favicon.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon" />
     <script
       src="https://kit.fontawesome.com/326f0c0d26.js"
       crossorigin="anonymous"
@@ -35,7 +42,9 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid menu-bar">
-        <div class="d-flex justify-content-between align-items-center">
+        <div
+          class="menu-items d-flex justify-content-between align-items-center"
+        >
           <a class="navbar-brand" href="/">CATARINA ROSÁRIA</a>
           <button
             class="navbar-toggler"
@@ -51,9 +60,6 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="/about.html">ABOUT</a>
             </li>
@@ -78,7 +84,7 @@
       <div class="container-fluid">
         <div class="project-presentation">
           <div class="row gx-5 align-items-center">
-            <div class="col-5">
+            <div class="col-lg-5">
               <h1 class="project-title">The Medium is the Massage</h1>
               <h3 class="project-sub-title">
                 Master Degree Project Thesis:<br />
@@ -104,10 +110,10 @@
                 </p>
               </div>
             </div>
-            <div class="col-7">
+            <div class="col-lg-7">
               <img
                 src="/images/project-1/1.jpg"
-                alt="Photo of time app project"
+                alt="Cover of the book The Medium is the Massage"
                 class="img-fluid mx-auto"
               />
             </div>
@@ -115,52 +121,92 @@
         </div>
         <!-- IMAGES SCROLL-->
         <div class="scroll-images">
-          <img
-            src="/images/project-1/2.jpg"
-            alt="Photo of time app project"
-            class="mx-auto d-block img-fluid"
-          />
-          <img
-            src="/images/project-1/3.jpg"
-            alt="Photo of time app project"
-            class="mx-auto d-block img-fluid"
-          />
-          <img
-            src="/images/project-1/4.jpg"
-            alt="Photo of time app project"
-            class="mx-auto d-block img-fluid"
-          />
-          <img
-            src="/images/project-1/5.jpg"
-            alt="Photo of time app project"
-            class="mx-auto d-block img-fluid"
-          />
-          <img
-            src="/images/project-1/6.jpg"
-            alt="Photo of time app project"
-            class="mx-auto d-block img-fluid"
-          />
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="/images/project-1/2.jpg"
+                  alt="Spread of the book The Medium is the Massage"
+                  class="mx-auto d-block img-fluid"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="/images/project-1/3.jpg"
+                  alt="Spread of the book The Medium is the Massage"
+                  class="mx-auto d-block img-fluid"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <img
+                  src="/images/project-1/4.jpg"
+                  alt="Spread of the book The Medium is the Massage"
+                  class="mx-auto d-block img-fluid"
+                />
+              </div>
+              <div class="col-md-6">
+                <img
+                  src="/images/project-1/5.jpg"
+                  alt="Spread of the book The Medium is the Massage"
+                  class="mx-auto d-block img-fluid"
+                />
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img
+                    src="/images/project-1/6.jpg"
+                    alt="Spread of the book The Medium is the Massage"
+                    class="mx-auto d-block img-fluid"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <img
+                    src="/images/project-1/7.jpg"
+                    alt="Spread of the book The Medium is the Massage"
+                    class="mx-auto d-block img-fluid last-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <footer class="d-flex justify-content-between align-items-center p-3">
-      <a
-        class="text-start mail-footer"
-        href="mailto:catarinadarosaria@gmail.com"
-        >catarinadarosaria@gmail.com</a
-      >
-      <div class="social-links text-end">
+    <footer class="d-flex justify-content-between p-3">
+      <div class="text-start align-self-center">
         <a
-          href="https://www.linkedin.com/in/catarina-da-ros%C3%A1ria-959080145/"
+          href="mailto:catarinadarosaria@gmail.com"
+          title="email link"
+          class="mail-footer"
+          >catarinadarosaria@gmail.com</a
         >
-          <i class="fa-brands fa-linkedin-in pe-4" style="color: #000000"></i
-        ></a>
-        <a href="https://www.behance.net/catarinarosaria">
-          <i class="fa-brands fa-behance pe-4" style="color: #000000"></i
-        ></a>
-        <a href="https://github.com/catarinadarosaria">
-          <i class="fa-brands fa-github" style="color: #000000"></i
-        ></a>
+      </div>
+      <div class="text-end social-links align-self-center">
+        <a
+          href="https://www.linkedin.com/in/catarina-da-ros%C3%A1ria-959080145"
+          title="LinkedIn link"
+          class="pe-2"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin-in" style="color: #000000"></i>
+        </a>
+        <a
+          href="https://www.behance.net/catarinarosaria"
+          title="Behance link"
+          class="pe-2"
+          target="_blank"
+        >
+          <i class="fa-brands fa-behance" style="color: #000000"></i>
+        </a>
+        <a
+          href="https://github.com/catarinadarosaria"
+          title="Github link"
+          target="_blank"
+        >
+          <i class="fa-brands fa-github" style="color: #000000"></i>
+        </a>
       </div>
     </footer>
     <script src="/javascript/index.js"></script>
