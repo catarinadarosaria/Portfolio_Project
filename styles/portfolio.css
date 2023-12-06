@@ -209,6 +209,12 @@
 .menu-bar {
   margin: 0 10px !important;
 }
+
+.logo {
+  max-width: 250px;
+  border-radius: 0;
+}
+
 /* GENERAL */
 body {
   background-color: var(--background-color) !important;
@@ -276,11 +282,12 @@ img {
   max-width: 80%;
 }
 .biography-container {
-  margin: 50px 0;
+  margin: 0 0 50px 0;
 }
 
 .biography {
   font-size: 28px;
+  margin-top: 30px;
 }
 .bio-text,
 .bio-img {
@@ -358,7 +365,7 @@ img {
 
 /* CONTACTS */
 .contact-container {
-  margin-top: 150px;
+  margin-top: 100px;
 }
 .contact-title {
   margin-bottom: 50px;
@@ -405,6 +412,9 @@ footer {
   left: 0;
   right: 0;
   background-color: var(--background-color);
+}
+footer a {
+  text-decoration: none;
 }
 .mail-footer {
   font-size: 28px;
@@ -454,14 +464,15 @@ i:hover {
     max-height: 100vh;
     justify-content: center;
   }
+
+  .logo {
+    max-width: 200px;
+  }
   .project-title {
     font-size: 36px;
     margin-top: 0 !important;
   }
 
-  .biography-container {
-    margin-top: 0 !important;
-  }
   .controled-width {
     max-width: 100%;
   }
@@ -499,6 +510,7 @@ i:hover {
     margin: 10px 0 0 0 !important;
   }
   .biography-container {
+    margin-top: 10px;
     margin-bottom: 30px;
   }
   .education-paragraph {
@@ -597,10 +609,24 @@ i:hover {
 /* MEDIA QUERIES MEDIUM*/
 @media (min-width: 577px) and (max-width: 820px) {
   .navbar {
-    margin: 0px 20px 0 20px;
+    margin: 0 10px 0 10px;
   }
   .navbar .navbar-brand {
+    font-size: 20px;
+  }
+
+  .navbar-collapse {
+    background-color: var(--background-color);
+    margin-top: 20px;
+  }
+
+  .navbar-nav .nav-item {
+    border: none;
+    border-radius: 0;
     font-size: 30px;
+    text-align: left;
+    margin-left: 0;
+    padding-left: 30px;
   }
   .website {
     margin: 50px;
@@ -627,6 +653,9 @@ i:hover {
   .biography {
     margin-top: 30px !important;
   }
+  .biography-container {
+    margin-top: 30px;
+  }
   .photo-me {
     margin-top: 0;
   }
@@ -640,6 +669,7 @@ i:hover {
     padding: 0;
   }
   .showcase-title {
+    margin-top: 80px;
     margin-bottom: 0;
   }
   .contact-title {
